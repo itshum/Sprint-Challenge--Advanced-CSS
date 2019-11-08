@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-A fully responsive website adjusts to all screen types from desktop to mobile as adaptive screens are tailor made for each screen type.
+A fully responsive website adjusts to all screen types from desktop to mobile as adaptive screens are tailor made for each screen type. Adaptive layout still lacks in accommodating for thousands of devices because care was only given to specific designs at certain break points. It’s a lot better than fixed, but we can do more with responsive layout. Responsive layouts combine features of fixed, adaptive, and fluid websites together into one seamless experience.
 
 2. Describe what it means to be mobile first vs desktop first.
 
@@ -46,11 +46,11 @@ Mobile first design is the idea of creating user interfaces from small devices l
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Think of preprocessing as a way to take complicated CSS code and simplifiying them through a compiler (like LESS). This allows us to work on simplier workflow, smart variables, and cool new tools to make writing CSS a little easier. 
+Think of preprocessing as a way to take complicated CSS code and simplifiying them through a compiler (machine code, like LESS). This allows us to work on a much simplier workflow that includes smart variables, and cool new tools (like storing data of properties we use often) to make writing CSS a little easier and faster. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-I like variables since you can store data that you use often. Parametric mixins are still difficult to execute. 
+I like variables since you can store data that you use often. Parametric mixins are still difficult to execute but incredibly useful when working on a large build. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -69,8 +69,8 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
 
@@ -114,7 +114,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [X] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
